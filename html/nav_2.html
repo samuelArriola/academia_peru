@@ -1,0 +1,57 @@
+ <!--responsivida del nemu pegable-->
+ <div class="sidenav" id="mobile-demo">
+    <div class=" container section ">
+      <div class="center">
+      <a href="../index.php" class=" brand-logo"><img width="100" height="90" class="circle responsive-img" src="https://cdn.pixabay.com/photo/2016/12/28/08/15/hummingbird-1935665__340.png"> </a>
+    </div> <br>
+      <span class="white-black email"><i class="material-icons left orange-text">email</i>**********@gmail.com</span><br>
+      <span class="white-black email"><i class="material-icons left blue-text">call</i>  *** *** ****</span> 
+    </div>
+
+    <div class="divider"></div>
+
+    <ul> <!--position: https://www.mclibre.org/consultar/htmlcss/css/css-posicionamiento-absoluto.html-->
+        <li>
+          <ul><a class="subheader"> &nbsp; MENU</a> <!-- esta clase coloca el texto mas opaco-->
+            <li>
+              <ul class="collapsible" data-collapsible="accordion">
+                <li>
+                    <div class="collapsible-header">¿Quienes Somos?</div>
+                    
+                    <div class="collapsible-body"  style=" position: relative; left: 30px;"><a href="#!">materia 1</a> </div>
+                    <div class="collapsible-body"  style=" position: relative; left: 30px;"><a href="#!">materia 2</a></div>
+                    <div class="collapsible-body"  style=" position: relative; left: 30px;"><a href="#!">materia 3</a></div>
+                    <div class="collapsible-body"  style=" position: relative; left: 30px;"><a href="#!">materia 4</a></div>    
+                </li>
+              </ul>
+            </li>
+        <li><a href="../index.php">Cerrar Sesión</a></li>
+    </ul>
+</div>
+
+  <!-- lista desplegable del menu ¿quienes somos?-->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">one</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">three</a></li>
+  </ul>
+  
+   <!-- Navegador-->
+   <div class="navbar-fixed">
+    <nav class="blue" role="navigation"> 
+        <div class="nav-wrapper container">
+          <a href="../index.php" class="left brand-logo"><img width="60" height="50" class="circle responsive-img"  src="https://cdn.pixabay.com/photo/2016/12/28/08/15/hummingbird-1935665__340.png">   
+          <span class="" style="vertical-align: top;">Academia Peru</span>            <!-- el style es para pode centrar el nombre -->
+          </a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons ">menu</i></a>
+          <ul  id="nav-mobile" class="right hide-on-med-and-down">
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">¿Quienes Somos?<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="../index.php">Cerrar Sesión</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
